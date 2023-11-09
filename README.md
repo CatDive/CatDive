@@ -44,6 +44,7 @@ category num: 301
  div:   [0.94675129 0.94859969] 
 ```
 
+
 You can also train the model by running 'main.py'.
 There are 3 arguments you can change:
 - dataset (ml-1m, books, gr-r)
@@ -56,9 +57,10 @@ For example, you can train the model for Amazon Books dataset with multi-embeddi
 ```
 python main.py --dataset books --multi true --alpha 0.2
 ```
+If you set any 'alpha', your run directory will be 'dataset_alpha', else it will be 'dataset_original'.
 
 
-You can test the model by running 'main.py' with the argument 'test' as 'true:
+Finally, you can test the model by running 'main.py' with the argument 'test' as 'true:
 ```
 python main.py --dataset books --multi true --dir catdive --test true
 ```
