@@ -51,6 +51,7 @@ There are 3 arguments you can change:
     : whether to use the proposed multi-embedding or not
 - alpha (any number)
     : alpha in the final negative sampling score
+  
 For example, you can train the model for Amazon Books dataset with multi-embedding and alpha of 0.2 by following code:
 ```
 python main.py --dataset books --multi true --alpha 0.2
