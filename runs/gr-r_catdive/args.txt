@@ -1,0 +1,17 @@
+batch_size,128
+cate_emb,True
+cate_neg,0.8
+dataset,gr-r
+device,cpu
+dropout_rate,0.2
+hidden_units,128
+l2_emb,0.0
+lr,0.001
+maxlen,200
+num_blocks,2
+num_epochs,10000
+num_heads,1
+state_dict_path,None
+test,True
+topk,10
+train_dir,0.8
