@@ -1,2 +1,2 @@
-python main.py --test true
-python main.py --test true --multi true --dir catdive
+python src/main.py --test true
+python src/main.py --test true --multi true --dir catdive
