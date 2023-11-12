@@ -56,14 +56,14 @@ There are 3 arguments you can change:
   
 For example, you can train the model for Amazon Books dataset with multi-embedding and alpha of 0.2 by following code:
 ```
-python main.py --dataset books --multi true --alpha 0.2
+python src/main.py --dataset books --multi true --alpha 0.2
 ```
 If you set any 'alpha', your run directory will be 'dataset_alpha', else it will be 'dataset_original'.
 
 
 Finally, you can test the model by running 'main.py' with the argument 'test' as 'true:
 ```
-python main.py --dataset books --multi true --dir catdive --test true
+python src/main.py --dataset books --multi true --dir catdive --test true
 ```
 Make sure you put the directory excluding the name of dataset as argument 'dir'.
 
