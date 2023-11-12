@@ -3,6 +3,7 @@
 This project is a pytorch implementation of 'CatDive: A Simple yet Effective Method for Maximizing Category Diversity in Sequential Recommendation'.
 CatDive achieves the state-of-the-art performance in category diversfied sequential recommendation, achieving the highest category diversity among all competitors without a sacrifice of accuracy.
 This project provides executable source code with adjustable arguments and preprocessed datasets used in the paper.
+We modified [SASRec implementation of pmixer](https://github.com/pmixer/SASRec.pytorch) and used it as backbone model for CatDive.
 
 ## Prerequisites
 
