@@ -1,7 +1,7 @@
 # CatDive: A Simple yet Effective Method for Maximizing Category Diversity in Sequential Recommendation
 
 This project is a pytorch implementation of 'CatDive: A Simple yet Effective Method for Maximizing Category Diversity in Sequential Recommendation'.
-CatDive achieves the state-of-the-art performance in category diversfied sequential recommendation, achieving the highest category diversity among all competitors without a sacrifice of accuracy.
+CatDive achieves the state-of-the-art performance in category diversfied sequential recommendation, achieving the highest category diversity among all competitors without sacrificing accuracy.
 This project provides executable source code with adjustable arguments and preprocessed datasets used in the paper.
 
 ## Prerequisites
