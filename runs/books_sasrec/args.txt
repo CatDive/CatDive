@@ -1,0 +1,16 @@
+batch_size,128
+cd_neg,False
+dataset,books
+device,cuda
+dir,sasrec
+dropout_rate,0.2
+hidden_units,128
+l2_emb,0.001
+lr,0.001
+maxlen,200
+multi,False
+num_blocks,2
+num_epochs,10000
+num_heads,1
+test,True
+topk,10
